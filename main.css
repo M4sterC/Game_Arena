@@ -1,0 +1,125 @@
+body{
+    background-color: #ccc;
+}
+.pageHeader{
+    background-color: #555;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.pageHeader h1{
+    text-transform: uppercase;
+}
+
+.pageHeader img{
+    height: 80px;
+}
+
+.carousel-item img{
+    height: 700px;
+}
+section h2 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 32px 0;
+}
+
+section {
+    background-color: #fff;
+    padding-bottom: 28px;
+}
+
+.post-img {
+    height: 300px;
+}
+
+#reviews{
+    background-color: #fff;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post{
+    padding: 32px;
+
+}
+
+.post h4{
+    border-bottom: 1px solid black;
+}
+
+.post h4,
+.post p {
+    padding: 16px;
+}
+
+.postText {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.buttonLink {
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.cards {
+    background-color: #ccc;
+}
+
+.contato label {
+    text-transform: uppercase ;
+    font-weight: bold;
+}
+
+.contato textarea {
+    height: 120PX;
+    margin-bottom: 42px;
+}
+
+.inputs{
+    padding: 16px;
+    margin: 16px 0;
+    resize: none;
+    border: 2px solid black;
+}
+
+#aceito-termos {
+    padding: 8px;
+}
+
+.contato button {
+    margin-top: 40px;
+    width: 100%;
+    padding: 16px;
+}
+
+.check a {
+    text-decoration: none;
+    color: black;
+}
+
+.check a:hover {
+    text-decoration:underline;
+}
+
+#inicio{
+    background-color: #ccc;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 24px;
+    color: #fff;
+    background-color: #555;
+}
